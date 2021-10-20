@@ -1,0 +1,26 @@
+name: 'Turtle'
+scopeName: 'source.turtle'
+type: 'tree-sitter'
+parser: 'tree-sitter-turtle'
+
+fileTypes: ['ttl']
+firstLineRegex: '/@?(prefix|base)/i'
+
+scopes:
+  'turtle_doc': 'source.turtle'
+
+  'string': 'string.quoted_single'
+
+  'iri_reference': "variable"
+
+  'prefixed_name': "variable"
+
+  'blank_node_label': "variable"
+
+  'integer': 'constant.numeric.decimal'
+
+  'comment': 'comment.block'
+
+
+comments:
+  start: '# '

@@ -1,0 +1,19 @@
+{
+  "name": "language-turtle",
+  "main": "./lib/language-turtle",
+  "version": "0.0.1",
+  "description": "Atom language support for Turtle",
+  "repository": "https://github.com/bonabeavis/language-turtle",
+  "keywords": [
+    "tree-sitter",
+    "turtle"
+  ],
+  "license": "MIT",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "dependencies": {
+    "tree-sitter-turtle": "0.0.2"
+  }
+}
