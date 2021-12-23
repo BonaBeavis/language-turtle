@@ -1,0 +1,7 @@
+'.source.turtle':
+  'Turtle Prefix Skeleton':
+    'prefix': 'skel'
+    'body': '@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@prefix $1: <http://$2> .\n\n$3'
+  'Turtle Triple Skeleton':
+    'prefix': 'tripskel'
+    'body': '<http://example.org/#spiderman> <http://www.perceive.net/schemas/relationship/enemyOf> <http://example.org/#green-goblin> .\n<http://$1> <http://$2> <http://$3> .\n$4'
