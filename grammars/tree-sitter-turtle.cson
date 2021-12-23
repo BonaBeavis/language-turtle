@@ -11,11 +11,11 @@ scopes:
 
   'string': 'string.quoted_single'
 
-  'iri_reference': "variable"
+  'iri_reference': 'variable'
 
-  'prefixed_name': "variable"
+  'prefixed_name': 'variable'
 
-  'blank_node_label': "variable"
+  'blank_node_label': 'variable'
 
   'integer': 'constant.numeric.decimal'
 
